@@ -333,6 +333,7 @@ Public Class frmMain
                     UpdateGraphs(strItem, arrShortName, blnIsColoured)
                     blnIsColoured = False
                 Else
+                    UpdateGraphs(strItem, arrShortName, blnIsColoured)
                     If asAppSettings.IsVerbose = True Then Console.WriteLine("Scanning file: " & strItem)
                 End If
                 rtResultsTracker.FileCount += 1
